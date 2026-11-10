@@ -1,0 +1,23 @@
+# Geçici editör ve sistem dosyaları
+*.swp
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Log ve günlük dosyaları
+*.log
+out.txt
+err.txt
+
+# Kişisel IDE/Editör ayarları
+.vscode/
+.idea/
+
+# HASSAS BİLGİLER (Kesinlikle GitHub'a yüklenmemeli)
+# Scriptlerinizde kullanacağınız API anahtarları, şifreler veya tokenlar
+.env
+*.pem
+*.key
+config.private.sh
+credentials/
