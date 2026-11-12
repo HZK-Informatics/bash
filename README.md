@@ -1,2 +1,2 @@
 # bash
-Bash automations by HZK
+Bash codes by HZK
