@@ -1,21 +1,21 @@
-# Geçici editör ve sistem dosyaları
+# Temporary editor and system files
 *.swp
 *.bak
 *.tmp
 .DS_Store
 Thumbs.db
 
-# Log ve günlük dosyaları
+# Log and log files
 *.log
 out.txt
 err.txt
 
-# Kişisel IDE/Editör ayarları
+# Personal IDE/Editor Settings
 .vscode/
 .idea/
 
-# HASSAS BİLGİLER (Kesinlikle GitHub'a yüklenmemeli)
-# Scriptlerinizde kullanacağınız API anahtarları, şifreler veya tokenlar
+# Sensitive information, must not be uploaded under any circumstances
+# API keys, passwords, or tokens to be used in scripts
 .env
 *.pem
 *.key
