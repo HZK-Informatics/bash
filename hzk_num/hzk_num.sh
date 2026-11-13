@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 TARGET_FILE="$HOME/Desktop/Projects/hzk_num/targets.txt" # TARGET_FILE: Set path to target hosts list. # $HOME: Current user home directory path.
 LOG_FILE="$HOME/Desktop/Projects/hzk_num/uptime.log" # LOG_FILE: Set path to output log file. # $HOME: Current user home directory path.
