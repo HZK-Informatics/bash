@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # AUTOMATIC EXECUTION IN THE TERMINAL:
 # crontab -e
