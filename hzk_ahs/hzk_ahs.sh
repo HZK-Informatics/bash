@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 main () { # Define main function for script execution.
 	DATE=$(date +%Y%m%d) # date: Get current year month day. # DATE: Save formatted date to variable.
