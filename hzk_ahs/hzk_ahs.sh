@@ -2,7 +2,7 @@
 
 main () { # Define main function for script execution.
 	DATE=$(date +%Y%m%d) # date: Get current year month day. # DATE: Save formatted date to variable.
-	SECURITY_AUDIT_PATH="$HOME/Projects/hzk_ahs/security_audit_${DATE}.txt" # Define file path for audit results. # SECURITY_AUDIT_PATH: Set output path variable.
+	SECURITY_AUDIT_PATH="$HOME/Desktop/Projects/hzk_ahs/security_audit_${DATE}.txt" # Define file path for audit results. # SECURITY_AUDIT_PATH: Set output path variable.
 	GREEN='\033[0;32m' # Set color code for safe text. # GREEN: Variable for green terminal text.
 	YELLOW='\033[1;33m' # Set color code for info text. # YELLOW: Variable for yellow terminal text.
 	RED='\033[0;31m' # Set color code for dangerous text. # RED: Variable for red terminal text.
