@@ -2,14 +2,14 @@
 
 main () { # Define main function for script execution.
 	DATE=$(date +%Y%m%d) # date: Get current year month day. # DATE: Save formatted date to variable.
-	SECURITY_AUDIT_PATH="$HOME/Desktop/Projects/hzk_ahs/security_audit_${DATE}.txt" # Define file path for audit results. # SECURITY_AUDIT_PATH: Set output path variable.
+	SECURITY_AUDIT_PATH="/home/kali/Desktop/Projects/hzk_ahs/security_audit_${DATE}.txt" # Define file path for audit results. # SECURITY_AUDIT_PATH: Set output path variable.
 	GREEN='\033[0;32m' # Set color code for safe text. # GREEN: Variable for green terminal text.
 	YELLOW='\033[1;33m' # Set color code for info text. # YELLOW: Variable for yellow terminal text.
 	RED='\033[0;31m' # Set color code for dangerous text. # RED: Variable for red terminal text.
 	NC='\033[0m' # Set color code for normal text. # NC: Variable to reset terminal colors.
 
 	echo "Audit and Hardening Script by HZK" # echo: Print script welcome title string. # "Audit...": Script title text for users.
-	if [ "${EUID}" -ne "0" ]; then # if: Start root privilege check block. # -ne 0: Check if ID equals zero.
+	if [ "${EUID}" -ne "0" ]; then # if: Start root privilege check block. # -ne 0: Check if ID not equal zero.
 		echo -e "${RED}[ERROR] Since this script scans critical system files, it must be run with ROOT privileges!${NC}" >&2 # echo: Print privilege error message text. # >&2: Redirect error stream to stderr.
 		exit 1 # exit: Terminate current script execution immediately. # 1: Return failure status code one.
 	fi # fi: Close root privilege check block.
