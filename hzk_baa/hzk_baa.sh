@@ -43,7 +43,6 @@ main () { # Define main function for script execution
 	backup_end=$(date +%Y%m%d_%H%M%S) # date: Get system date and time. # +%Y%m%d_%H%M%S: Format as YearMonthDay_HourMinuteSecond. # backup_end: Save current timestamp for end.
 	
 	if [ "${success_code}" -eq 0 ]; then # if: Start status evaluation condition block. # "${success_code}" -eq 0?: Verify if tar exit code equals zero.
-		echo "BACKUP AND ARCHIVING AUTOMATION BY HZK LOG FILE" >> "${log_path}" # echo: Print log file header line. # >>: Append output to target file. # "${log_path}": Destination path for log entries.
 		echo "" >> "${log_path}" # echo "": Print an empty newline character. # >>: Append output to target file. # "${log_path}": Destination path for log entries.
 		echo "Start Time: ${backup_start}" >> "${log_path}" # echo: Print the backup start timestamp. # >>: Append output to target file. # "${log_path}": Destination path for log entries.
 		echo "Archived Directory: ${main_path}" >> "${log_path}" # echo: Print targeted source folder path. # >>: Append output to target file. # "${log_path}": Destination path for log entries.
