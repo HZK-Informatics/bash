@@ -1,4 +1,3 @@
-# bash
 # 🛡️ HZK Linux Automation & Security Bash Suite
 
 A collection of lightweight, dependency-free Bash scripts designed for Linux system administration, security auditing, and network monitoring. Built using native Linux core utilities (`awk`, `grep`, `tar`, `ping`, `find`).
