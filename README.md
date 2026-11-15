@@ -93,9 +93,9 @@ A continuous ICMP network monitoring tool that tracks host availability, packet 
 Clone the repository and grant execution permissions to the scripts:
 
 ```bash
-git clone https://github.com
-cd hzk-bash-suite
-chmod +x hzk_baa/hzk_baa.sh hzk_ahs/hzk_ahs.sh hzk_num/monitor.sh
+git clone https://github.com/HZK-Informatics/bash.git
+cd bash
+chmod +x hzk_baa/hzk_baa.sh hzk_ahs/hzk_ahs.sh hzk_num/hzk_num.sh
 ```
 
 ---
